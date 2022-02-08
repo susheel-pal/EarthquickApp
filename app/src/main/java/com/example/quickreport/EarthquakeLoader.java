@@ -27,7 +27,7 @@ public class EarthquakeLoader extends AsyncTaskLoader<List<Earthquake>> {
      */
     public EarthquakeLoader(Context context,String url) {
         super(context);
-        // TODO: Finish implementing this constructor
+        // Completing: Finish implementing this constructor
         mUrl = url;
     }
 
@@ -42,7 +42,7 @@ public class EarthquakeLoader extends AsyncTaskLoader<List<Earthquake>> {
     @Nullable
     @Override
     public List<Earthquake> loadInBackground() {
-        // TODO: Implement this method
+        // Complete: Implement this method
         if(mUrl == null){
             return null;
         }
